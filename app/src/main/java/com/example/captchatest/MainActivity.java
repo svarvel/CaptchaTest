@@ -31,24 +31,8 @@ import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private final List<String> LIST_SITE_KEYS =  Arrays.asList(
-            "6Lc1dloaAAAAAEnAtPU5XaRfPDs7g7VjDZ44fcvJ", "6LdFdloaAAAAADM8ASaEOZV5lMm6hKebqrezjCOn",      // Antonio
-            "6LdWdloaAAAAAF9n0VYMJrpkI2PLxG92Z9CDimBK",
-            "6LdQ5FgaAAAAAHK_3lkh8FNih0sFCyP58t6PQ66L", "6LezOVkaAAAAAAkWOO2oxOpmvmV5YdUGiDTjjGUN",     // Inigo
-            "6LckOlkaAAAAAPPBw01vWODm9R6NOl2ggNYqUPqo", //" 6LchOlkaAAAAACungz2ea4uNF48jk3Y1UJ5dVu6t",
-            "6LfuUlQaAAAAAKX9cNoFnhO9QNkojJjXMNX_Tacu", "6Ld6UVQaAAAAAP0YkFL1yDZqNhO10n3L_JWa0fx9",      // Panos
-            "6LdwUVQaAAAAALZFA-7SFbhMC78bFkffniJ5ASxh", "6LcI0VIaAAAAAFi_djTLDRcqUSV3eT8Ci7v8T3rc",
-            "6LeR21IaAAAAAMvDUoe2DC1ftncOaG5tsBeK53Uq", "6Lc0SlQaAAAAAPv75oRspkZgO5D9xFOKFVlykJCL",     // Matteo
-            "6LfScVkaAAAAANJceXW8IsJBaORWzZkn2f1Omv2t", "6LdKclkaAAAAABkag2FX9hcxggZMLRzbgV53Hujs");
-    private final List<String> LIST_SECRET_KEY =  Arrays.asList(
-            "6Lc1dloaAAAAAMwfV7fyEzd8W7YPYggaISQCJORB", "6LdFdloaAAAAACRhO3ra64KK-T2jPIVc9jTq2Iqy",
-            "6LdWdloaAAAAAIQCqe2FifjD4DL3Td58VNESOEA4",
-            "6LdQ5FgaAAAAAKQ9TVWzsYmobxTME7jvCntPH2vC", "6LezOVkaAAAAACt48qy8Jqq2MceAcEOWuUvv-wbW",
-            "6LckOlkaAAAAAENg8bbaF_l9-1YhUrEPHCpZTSJQ", //"6LchOlkaAAAAADAttnU0RcgrssT3tYre__r2ziu6",
-            "6LfuUlQaAAAAANJ4WzsXoqiwkgGI1tuwtmGhV7KK", "6Ld6UVQaAAAAAFCfvBBoEjiUziUd4g3FI4d0mqQa",
-            "6LdwUVQaAAAAAFfDqaoYDYkld08txo--O_lskh6Y", "6LcI0VIaAAAAAEtfTqWZfp8KSI5-9Zcnt5c9sbJG",
-            "6LeR21IaAAAAADLyZAtX7uK6psYp8-LbT3gGdZAD", "6Lc0SlQaAAAAANxjCz3tr8ZelW74zrh3v8dw5u6a",
-            "6LfScVkaAAAAAPEfMVlNFmPLUCnq6kAGOMUyeTHN", "6LdKclkaAAAAANH9DC35LgIV9aSepS--gH2OzIfs");
+    private final List<String> LIST_SITE_KEYS =  Arrays.asList();    // here provide list of site keys used by N captchas to test
+    private final List<String> LIST_SECRET_KEY =  Arrays.asList();   // here provide list of secrete keys used by N captchas to test
     String SECRET_KEY = "";
     String SITE_KEY = "";
     String TAG = "com.example.captchatest";
